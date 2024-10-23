@@ -1,0 +1,25 @@
+
+body {
+  background-color: rgb(19, 19, 19);
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav {
+    position: flex;
+    top: 0;
+    left: 0;
+    backdrop-filter: blur(10px) saturate(200%) brightness(70%);
+    color: #fff;
+    display: flex;
+    height: 7vw;
+    width: 100%;
+    align-items: center;
+    justify-content: left;
+    z-index: 5;
+    margin: auto;
+}
+embed {
+height:100vh;
+width:100vw;
+position:fixed;
+}
